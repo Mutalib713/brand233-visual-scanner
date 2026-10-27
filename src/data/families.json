@@ -1,0 +1,4897 @@
+[
+  {
+    "family": "Round Bottle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-6-1781018530481.jpeg",
+      "/uploads/product-7-1781018441025.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 6,
+        "sku": "ROU-0001",
+        "name": "Round Bottle White",
+        "family": "Round Bottle",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 65.0,
+        "retailStock": 54,
+        "warehouseStock": 0,
+        "totalStock": 54,
+        "imageUrl": "/uploads/product-6-1781018530481.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 7,
+        "sku": "ROU-0002",
+        "name": "Round Bottle Black",
+        "family": "Round Bottle",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 65.0,
+        "retailStock": 64,
+        "warehouseStock": 0,
+        "totalStock": 64,
+        "imageUrl": "/uploads/product-7-1781018441025.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 8,
+        "sku": "ROU-0003",
+        "name": "Round Bottle Blue",
+        "family": "Round Bottle",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 65.0,
+        "retailStock": 28,
+        "warehouseStock": 0,
+        "totalStock": 28,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 9,
+        "sku": "ROU-0004",
+        "name": "Round Bottle Green",
+        "family": "Round Bottle",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 65.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 10,
+        "sku": "ROU-0005",
+        "name": "Round Bottle Grey",
+        "family": "Round Bottle",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 65.03,
+        "retailStock": 69,
+        "warehouseStock": 0,
+        "totalStock": 69,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 11,
+        "sku": "ROU-0006",
+        "name": "Round Bottle Red",
+        "family": "Round Bottle",
+        "color": "Red",
+        "colorHex": "#DC2626",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 65.0,
+        "retailStock": 20,
+        "warehouseStock": 0,
+        "totalStock": 20,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Sublimation Sport Bottle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-12-1784740086078.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 12,
+        "sku": "SUB-0007",
+        "name": "Sublimation Sport Bottle",
+        "family": "Sublimation Sport Bottle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 25.0,
+        "sellingPrice": 30.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-12-1784740086078.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Temperature Flask",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-13-1781018688015.jpeg",
+      "/uploads/product-14-1781018739500.jpeg",
+      "/uploads/product-15-1781016855223.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 13,
+        "sku": "TEM-0008",
+        "name": "Temperature Flask Black",
+        "family": "Temperature Flask",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 40.0,
+        "sellingPrice": 45.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-13-1781018688015.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 14,
+        "sku": "TEM-0009",
+        "name": "Temperature Flask white",
+        "family": "Temperature Flask",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 40.0,
+        "sellingPrice": 45.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-14-1781018739500.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 15,
+        "sku": "TEM-0010",
+        "name": "Temperature Flask Blue",
+        "family": "Temperature Flask",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 40.0,
+        "sellingPrice": 45.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-15-1781016855223.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 16,
+        "sku": "TEM-0011",
+        "name": "Temperature Flask Red",
+        "family": "Temperature Flask",
+        "color": "Red",
+        "colorHex": "#DC2626",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 45.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Slim glass cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-17-1781018653991.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 17,
+        "sku": "SLI-0012",
+        "name": "Slim glass cup blue",
+        "family": "Slim glass cup",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 48,
+        "warehouseStock": 0,
+        "totalStock": 48,
+        "imageUrl": "/uploads/product-17-1781018653991.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 130,
+        "sku": "SLI-0125",
+        "name": "Slim glass cup",
+        "family": "Slim glass cup",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Glass Tumbler with handle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-18-1784738699978.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 18,
+        "sku": "GLA-0013",
+        "name": "Glass Tumbler with handle",
+        "family": "Glass Tumbler with handle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-18-1784738699978.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Mason Jar",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-19-1781017219042.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 19,
+        "sku": "MAS-0014",
+        "name": "Mason Jar",
+        "family": "Mason Jar",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 8.0,
+        "sellingPrice": 10.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-19-1781017219042.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Round Leather Tubler",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-20-1782567540199.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 20,
+        "sku": "LEA-0015",
+        "name": " Round Leather Tubler (gold ",
+        "family": "Round Leather Tubler",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 10.0,
+        "sellingPrice": 12.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-20-1782567540199.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "6 in1 Diary set",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 21,
+        "sku": "6 I-0016",
+        "name": "6 in1 Diary set",
+        "family": "6 in1 Diary set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 300.0,
+        "sellingPrice": 320.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "LED Keyholder",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 22,
+        "sku": "LED-0017",
+        "name": "LED Keyholder",
+        "family": "LED Keyholder",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 8.0,
+        "sellingPrice": 10.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "keyholder opener",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 23,
+        "sku": "GOL-0018",
+        "name": "Gold keyholder opener",
+        "family": "keyholder opener",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 7.0,
+        "sellingPrice": 8.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Keyholder opener",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 24,
+        "sku": "SIL-0019",
+        "name": "Silver Keyholder opener",
+        "family": "Keyholder opener",
+        "color": "Silver",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 6.5,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Crown Cork opener metal",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 25,
+        "sku": "CRO-0020",
+        "name": "Crown Cork opener metal",
+        "family": "Crown Cork opener metal",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 6.5,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "wooden pen",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 26,
+        "sku": "WOO-0021",
+        "name": "wooden pen",
+        "family": "wooden pen",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 4.0,
+        "sellingPrice": 5.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Wooden Diary",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 27,
+        "sku": "WOO-0022",
+        "name": "Wooden Diary",
+        "family": "Wooden Diary",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 48,
+        "warehouseStock": 0,
+        "totalStock": 48,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Wooden Diary and pen",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 28,
+        "sku": "WOO-0023",
+        "name": "Wooden Diary and pen",
+        "family": "Wooden Diary and pen",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 65.0,
+        "sellingPrice": 70.0,
+        "retailStock": 76,
+        "warehouseStock": 0,
+        "totalStock": 76,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Half Wooden Diary and pen set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-29-1783005015965.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 29,
+        "sku": "BLA-0024",
+        "name": "Half Black Wooden Diary and pen set",
+        "family": "Half Wooden Diary and pen set",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 50.0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-29-1783005015965.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Plastic crown cork",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 30,
+        "sku": "PLA-0025",
+        "name": "Plastic crown cork white",
+        "family": "Plastic crown cork",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 4.0,
+        "sellingPrice": 5.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 32,
+        "sku": "PLA-0027",
+        "name": "Plastic crown cork black",
+        "family": "Plastic crown cork",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 4.0,
+        "sellingPrice": 5.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Wooden Round Opener",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-31-1784734663217.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 31,
+        "sku": "ROU-0026",
+        "name": " Wooden Round Opener",
+        "family": "Wooden Round Opener",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-31-1784734663217.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Handkerchief",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 33,
+        "sku": "HAN-0028",
+        "name": "Handkerchief",
+        "family": "Handkerchief",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 40.0,
+        "sellingPrice": 45.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Rossette Red and",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 34,
+        "sku": "ROS-0029",
+        "name": "Rossette(Red and Black)",
+        "family": "Rossette Red and",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Mug with Wooden down",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 35,
+        "sku": "MUG-0030",
+        "name": "Mug with Wooden down White",
+        "family": "Mug with Wooden down",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 28.0,
+        "sellingPrice": 30.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Mug with wooden down",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-36-1781017257702.jpeg",
+      "/uploads/product-37-1781017282471.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 36,
+        "sku": "MUG-0031",
+        "name": "Mug with wooden down Black",
+        "family": "Mug with wooden down",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 28.0,
+        "sellingPrice": 30.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-36-1781017257702.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 37,
+        "sku": "MUG-0032",
+        "name": "Mug with wooden down Grey",
+        "family": "Mug with wooden down",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 28.0,
+        "sellingPrice": 30.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-37-1781017282471.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Lid Ceramic mug",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-38-1781017097203.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 38,
+        "sku": "GOL-0033",
+        "name": "Gold Lid Ceramic mug",
+        "family": "Lid Ceramic mug",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 116,
+        "warehouseStock": 0,
+        "totalStock": 116,
+        "imageUrl": "/uploads/product-38-1781017097203.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Lid Ceramic Mug",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 39,
+        "sku": "SIL-0034",
+        "name": "Silver Lid Ceramic Mug",
+        "family": "Lid Ceramic Mug",
+        "color": "Silver",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "mug",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-40-1781018770962.jpeg",
+      "/uploads/product-43-1781017173244.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 40,
+        "sku": "WHI-0035",
+        "name": "White mug",
+        "family": "mug",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 8.0,
+        "sellingPrice": 8.5,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-40-1781018770962.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 43,
+        "sku": "GOL-0038",
+        "name": "Gold mug",
+        "family": "mug",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 16.0,
+        "sellingPrice": 17.5,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-43-1781017173244.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Magic mug",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-41-1781885268005.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 41,
+        "sku": "MAG-0036",
+        "name": "Magic mug",
+        "family": "Magic mug",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 13.0,
+        "sellingPrice": 14.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-41-1781885268005.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Big mug",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-42-1781016920691.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 42,
+        "sku": "BIG-0037",
+        "name": "Big white mug",
+        "family": "Big mug",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 14.0,
+        "sellingPrice": 15.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-42-1781016920691.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Frosted mug",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-44-1781017074490.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 44,
+        "sku": "FRO-0039",
+        "name": "Frosted mug",
+        "family": "Frosted mug",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 13.0,
+        "sellingPrice": 14.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-44-1781017074490.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Plain glass mug (glossy)",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-45-1781018393438.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 45,
+        "sku": "PLA-0040",
+        "name": "Plain glass mug (glossy)",
+        "family": "Plain glass mug (glossy)",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 13.0,
+        "sellingPrice": 17.5,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-45-1781018393438.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Square pen 12ghs type",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 46,
+        "sku": "PEN-0041",
+        "name": " Square pen 12ghs type (Black)",
+        "family": "Square pen 12ghs type",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 11.0,
+        "sellingPrice": 12.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 51,
+        "sku": "SQU-0046",
+        "name": "Square pen 12ghs type (White)",
+        "family": "Square pen 12ghs type",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 11.0,
+        "sellingPrice": 12.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "wooden keyholder set",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 47,
+        "sku": "WOO-0042",
+        "name": "wooden keyholder set",
+        "family": "wooden keyholder set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 105,
+        "warehouseStock": 0,
+        "totalStock": 105,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Pen with lines 7ghs type",
+    "category": "Pen",
+    "referenceImages": [
+      "/uploads/product-48-1784734528026.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 48,
+        "sku": "PEN-0043",
+        "name": " Black Pen with lines (7ghs type)",
+        "family": "Pen with lines 7ghs type",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Pen",
+        "categoryId": 716,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 101,
+        "warehouseStock": 0,
+        "totalStock": 101,
+        "imageUrl": "/uploads/product-48-1784734528026.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Tissue Box",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 49,
+        "sku": "TIS-0044",
+        "name": "Tissue Box",
+        "family": "Tissue Box",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 30.0,
+        "sellingPrice": 35.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Foil Box",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 50,
+        "sku": "FOI-0045",
+        "name": "Foil Box",
+        "family": "Foil Box",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Rossette Black and",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 53,
+        "sku": "ROS-0048",
+        "name": "Rossette (Black and White)",
+        "family": "Rossette Black and",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 250,
+        "warehouseStock": 0,
+        "totalStock": 250,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Rossette only",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 54,
+        "sku": "ROS-0049",
+        "name": "Rossette (white only",
+        "family": "Rossette only",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 0,
+        "retailStock": 250,
+        "warehouseStock": 0,
+        "totalStock": 250,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Wooden cup with handle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-55-1781018888324.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 55,
+        "sku": "WOO-0050",
+        "name": "Wooden cup with handle",
+        "family": "Wooden cup with handle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 80.0,
+        "sellingPrice": 85.0,
+        "retailStock": 36,
+        "warehouseStock": 0,
+        "totalStock": 36,
+        "imageUrl": "/uploads/product-55-1781018888324.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Wooden cup without handle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-56-1781019031608.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 56,
+        "sku": "WOO-0051",
+        "name": "Wooden cup without handle",
+        "family": "Wooden cup without handle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 75.0,
+        "sellingPrice": 80.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-56-1781019031608.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Wooden and cup",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 57,
+        "sku": "WOO-0052",
+        "name": "Wooden and black cup",
+        "family": "Wooden and cup",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 75.0,
+        "sellingPrice": 80.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Wooden flask with temperature",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-58-1781019071797.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 58,
+        "sku": "WOO-0053",
+        "name": "Wooden flask with temperature",
+        "family": "Wooden flask with temperature",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 90.0,
+        "sellingPrice": 95.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-58-1781019071797.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Car cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-59-1783006895552.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 59,
+        "sku": "CAR-0054",
+        "name": "Car cup",
+        "family": "Car cup",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 24,
+        "warehouseStock": 0,
+        "totalStock": 24,
+        "imageUrl": "/uploads/product-59-1783006895552.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Egg sharp tumbler",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-60-1781016949340.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 60,
+        "sku": "EGG-0055",
+        "name": "Egg sharp tumbler",
+        "family": "Egg sharp tumbler",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 55.0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-60-1781016949340.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Round bottle with wooden lid",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-61-1781016253443.jpeg",
+      "/uploads/product-62-1781016697189.jpeg",
+      "/uploads/product-63-1781016805244.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 61,
+        "sku": "ROU-0056",
+        "name": " Black Round bottle with wooden lid ",
+        "family": "Round bottle with wooden lid",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 70.0,
+        "sellingPrice": 75.0,
+        "retailStock": 32,
+        "warehouseStock": 0,
+        "totalStock": 32,
+        "imageUrl": "/uploads/product-61-1781016253443.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 62,
+        "sku": "RED-0057",
+        "name": "Red Round bottle with wooden lid",
+        "family": "Round bottle with wooden lid",
+        "color": "Red",
+        "colorHex": "#DC2626",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 70.0,
+        "sellingPrice": 75.0,
+        "retailStock": 26,
+        "warehouseStock": 0,
+        "totalStock": 26,
+        "imageUrl": "/uploads/product-62-1781016697189.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 63,
+        "sku": "BLU-0058",
+        "name": "Blue Round bottle with wooden lid",
+        "family": "Round bottle with wooden lid",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 70.0,
+        "sellingPrice": 75.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-63-1781016805244.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Coloured sports bottle",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 64,
+        "sku": "COL-0059",
+        "name": "Coloured sports bottle",
+        "family": "Coloured sports bottle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Bamboo Temperature flask",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-65-1782562683742.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 65,
+        "sku": "BAM-0060",
+        "name": "Bamboo Temperature flask",
+        "family": "Bamboo Temperature flask",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 90.0,
+        "sellingPrice": 95.0,
+        "retailStock": 25,
+        "warehouseStock": 0,
+        "totalStock": 25,
+        "imageUrl": "/uploads/product-65-1782562683742.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Medium stanley cup with handle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-66-1782563262062.jpeg",
+      "/uploads/product-69-1782563916837.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 66,
+        "sku": "MED-0061",
+        "name": "Medium stanley cup with handle ( black",
+        "family": "Medium stanley cup with handle",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 65.0,
+        "retailStock": 34,
+        "warehouseStock": 0,
+        "totalStock": 34,
+        "imageUrl": "/uploads/product-66-1782563262062.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 69,
+        "sku": "MED-0064",
+        "name": "Medium stanley cup with handle ( white",
+        "family": "Medium stanley cup with handle",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 0,
+        "retailStock": 10,
+        "warehouseStock": 0,
+        "totalStock": 10,
+        "imageUrl": "/uploads/product-69-1782563916837.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "sublimation car cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-67-1782563398380.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 67,
+        "sku": "SUB-0062",
+        "name": "sublimation car cup",
+        "family": "sublimation car cup",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 55.0,
+        "sellingPrice": 60.0,
+        "retailStock": 43,
+        "warehouseStock": 0,
+        "totalStock": 43,
+        "imageUrl": "/uploads/product-67-1782563398380.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "small stanley cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-68-1782563811538.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 68,
+        "sku": "SMA-0063",
+        "name": "small stanley cup ( white)",
+        "family": "small stanley cup",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-68-1782563811538.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Big sublimated stanley cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-70-1782564072815.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 70,
+        "sku": "BIG-0065",
+        "name": "Big sublimated stanley cup",
+        "family": "Big sublimated stanley cup",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 110.0,
+        "sellingPrice": 120.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-70-1782564072815.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "medium stanley without handle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-71-1782564216115.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 71,
+        "sku": "MED-0066",
+        "name": "medium stanley without handle (black)",
+        "family": "medium stanley without handle",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 55.0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-71-1782564216115.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Big glass cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-72-1782564439263.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 72,
+        "sku": "BIG-0067",
+        "name": "Big glass cup (gold",
+        "family": "Big glass cup",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-72-1782564439263.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Sublimated bottle with wooden cover",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-73-1782564630396.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 73,
+        "sku": "SUB-0068",
+        "name": "Sublimated bottle with wooden cover",
+        "family": "Sublimated bottle with wooden cover",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 65.0,
+        "sellingPrice": 70.0,
+        "retailStock": 18,
+        "warehouseStock": 0,
+        "totalStock": 18,
+        "imageUrl": "/uploads/product-73-1782564630396.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "medium stanley cup without handle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-74-1782564814057.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 74,
+        "sku": "MED-0069",
+        "name": "medium stanley cup without handle (white",
+        "family": "medium stanley cup without handle",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 55.0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-74-1782564814057.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Bottle wine set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-75-1782565051197.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 75,
+        "sku": "BOT-0070",
+        "name": "Bottle wine set",
+        "family": "Bottle wine set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 65.0,
+        "sellingPrice": 70.0,
+        "retailStock": 37,
+        "warehouseStock": 0,
+        "totalStock": 37,
+        "imageUrl": "/uploads/product-75-1782565051197.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Big stanley cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-76-1782565327218.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 76,
+        "sku": "BIG-0071",
+        "name": "Big stanley cup (blue",
+        "family": "Big stanley cup",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 90.0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-76-1782565327218.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Bamboo flask",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-77-1782565691506.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 77,
+        "sku": "BAM-0072",
+        "name": "Bamboo flask",
+        "family": "Bamboo flask",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 65.0,
+        "sellingPrice": 70.0,
+        "retailStock": 17,
+        "warehouseStock": 0,
+        "totalStock": 17,
+        "imageUrl": "/uploads/product-77-1782565691506.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "spatula set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-78-1782566553345.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 78,
+        "sku": "SPA-0073",
+        "name": "spatula set",
+        "family": "spatula set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 15.0,
+        "sellingPrice": 20.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-78-1782566553345.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 214,
+        "sku": "SPA-0204",
+        "name": "spatula set",
+        "family": "spatula set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 19.99,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "long mouth bottle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-79-1782566822354.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 79,
+        "sku": "LON-0074",
+        "name": "long mouth bottle (BLUE",
+        "family": "long mouth bottle",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 65.0,
+        "sellingPrice": 70.0,
+        "retailStock": 11,
+        "warehouseStock": 0,
+        "totalStock": 11,
+        "imageUrl": "/uploads/product-79-1782566822354.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Small stanley cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-80-1782567341583.jpeg",
+      "/uploads/product-81-1782567455662.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 80,
+        "sku": "SMA-0075",
+        "name": "Small stanley cup (pink",
+        "family": "Small stanley cup",
+        "color": "Pink",
+        "colorHex": "#EC4899",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-80-1782567341583.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 81,
+        "sku": "SMA-0076",
+        "name": "Small stanley cup (green",
+        "family": "Small stanley cup",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-81-1782567455662.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Round leather tumber",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-82-1782567887296.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 82,
+        "sku": "ROU-0077",
+        "name": "Round leather tumber (black",
+        "family": "Round leather tumber",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 11.0,
+        "sellingPrice": 12.0,
+        "retailStock": 60,
+        "warehouseStock": 0,
+        "totalStock": 60,
+        "imageUrl": "/uploads/product-82-1782567887296.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Egg shape tumbler set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-83-1782568042951.jpeg",
+      "/uploads/product-84-1782568129156.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 83,
+        "sku": "EGG-0078",
+        "name": "Egg shape tumbler set ( black",
+        "family": "Egg shape tumbler set",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 90.0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-83-1782568042951.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 84,
+        "sku": "EGG-0079",
+        "name": "Egg shape tumbler set (white",
+        "family": "Egg shape tumbler set",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 95.0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-84-1782568129156.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "slim glass cup",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-85-1782568222190.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 85,
+        "sku": "SLI-0080",
+        "name": "slim glass cup ( green",
+        "family": "slim glass cup",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-85-1782568222190.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "4in1 set with umbrella",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-86-1783004682573.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 86,
+        "sku": "4IN-0081",
+        "name": "4in1 set with umbrella",
+        "family": "4in1 set with umbrella",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 245.0,
+        "sellingPrice": 250.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-86-1783004682573.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Wooden umbrella set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-87-1783004746973.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 87,
+        "sku": "WOO-0082",
+        "name": "Wooden umbrella set",
+        "family": "Wooden umbrella set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 195.0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-87-1783004746973.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "3in 1 set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-88-1783004792597.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 88,
+        "sku": "3IN-0083",
+        "name": "3in 1 set red",
+        "family": "3in 1 set",
+        "color": "Red",
+        "colorHex": "#DC2626",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 195.0,
+        "sellingPrice": 180.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-88-1783004792597.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "6in 1 set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-89-1783004847025.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 89,
+        "sku": "6IN-0084",
+        "name": "6in 1 set  blue",
+        "family": "6in 1 set",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 345.0,
+        "sellingPrice": 350.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-89-1783004847025.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "5in1 set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-90-1783004894655.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 90,
+        "sku": "5IN-0085",
+        "name": "5in1 set white",
+        "family": "5in1 set",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 295.0,
+        "sellingPrice": 300.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-90-1783004894655.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Wooden clock",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-91-1783005118818.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 91,
+        "sku": "WOO-0086",
+        "name": "Wooden clock",
+        "family": "Wooden clock",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-91-1783005118818.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "2in1 diary set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-197-1784735123410.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 92,
+        "sku": "2IN-0087",
+        "name": "2in1 diary set (grey",
+        "family": "2in1 diary set",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 95.0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 197,
+        "sku": "2IN-0187",
+        "name": "2in1 diary set (blue",
+        "family": "2in1 diary set",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-197-1784735123410.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 198,
+        "sku": "2IN-0188",
+        "name": "2in1 diary set (green",
+        "family": "2in1 diary set",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "vacuum  flask set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-93-1783005249615.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 93,
+        "sku": "VAC-0088",
+        "name": "vacuum  flask set",
+        "family": "vacuum  flask set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 55.0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-93-1783005249615.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "3in1 diary set color",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-94-1783005412452.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 94,
+        "sku": "3IN-0089",
+        "name": "3in1 diary set grey color",
+        "family": "3in1 diary set color",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 195.0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-94-1783005412452.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "plaque 200 A",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-95-1783006220283.jpeg",
+      "/uploads/product-100-1783006832299.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 95,
+        "sku": "PLA-0090",
+        "name": "plaque 200 A",
+        "family": "plaque 200 A",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 195.0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-95-1783006220283.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 98,
+        "sku": "PLA-0093",
+        "name": "plaque 200 A",
+        "family": "plaque 200 A",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 100,
+        "sku": "PLA-0095",
+        "name": "plaque 200 A",
+        "family": "plaque 200 A",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-100-1783006832299.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "plaque 180 B",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-96-1783006493289.jpeg",
+      "/uploads/product-99-1783006803043.jpeg",
+      "/uploads/product-101-1783006874819.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 96,
+        "sku": "PLA-0091",
+        "name": "plaque 180 B",
+        "family": "plaque 180 B",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 180.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-96-1783006493289.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 99,
+        "sku": "PLA-0094",
+        "name": "plaque 180 B",
+        "family": "plaque 180 B",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 180.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-99-1783006803043.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 101,
+        "sku": "PLA-0096",
+        "name": "plaque 180 B",
+        "family": "plaque 180 B",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-101-1783006874819.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "cheers kids bottle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-97-1783006640749.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 97,
+        "sku": "CHE-0092",
+        "name": "cheers kids bottle",
+        "family": "cheers kids bottle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 35.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-97-1783006640749.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "wallet set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-102-1783351962991.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 102,
+        "sku": "WAL-0097",
+        "name": "wallet set",
+        "family": "wallet set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 80.0,
+        "retailStock": 60,
+        "warehouseStock": 0,
+        "totalStock": 60,
+        "imageUrl": "/uploads/product-102-1783351962991.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "pen and keyholder set",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 103,
+        "sku": "GOL-0098",
+        "name": "gold pen and keyholder set",
+        "family": "pen and keyholder set",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "wooden pen and keyholder with opner set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-104-1783352134642.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 104,
+        "sku": "WOO-0099",
+        "name": "wooden pen and keyholder with opner set",
+        "family": "wooden pen and keyholder with opner set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 27.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-104-1783352134642.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "wooden pen and keyholder set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-105-1783352198168.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 105,
+        "sku": "WOO-0100",
+        "name": "wooden pen and keyholder set",
+        "family": "wooden pen and keyholder set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-105-1783352198168.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "bottle wine set",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 106,
+        "sku": "BOT-0101",
+        "name": "bottle wine set",
+        "family": "bottle wine set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Cup with at the top red",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-107-1783352611488.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 107,
+        "sku": "CUP-0102",
+        "name": "Cup with gold at the top (red",
+        "family": "Cup with at the top red",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 2,
+        "warehouseStock": 0,
+        "totalStock": 2,
+        "imageUrl": "/uploads/product-107-1783352611488.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Cup with gold at the top",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-108-1783352692135.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 108,
+        "sku": "CUP-0103",
+        "name": "Cup with gold at the top (white",
+        "family": "Cup with gold at the top",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 16,
+        "warehouseStock": 0,
+        "totalStock": 16,
+        "imageUrl": "/uploads/product-108-1783352692135.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "vacuum tempreture bottle with at the top",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-109-1783353763666.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 109,
+        "sku": "VAC-0104",
+        "name": "vacuum tempreture bottle with gold at the top",
+        "family": "vacuum tempreture bottle with at the top",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-109-1783353763666.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Wooden pens",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 110,
+        "sku": "WOO-0105",
+        "name": "Wooden pens",
+        "family": "Wooden pens",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "branded stanley deep",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-111-1783359444802.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 111,
+        "sku": "BRA-0106",
+        "name": "branded stanley (deep blue",
+        "family": "branded stanley deep",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 22,
+        "warehouseStock": 0,
+        "totalStock": 22,
+        "imageUrl": "/uploads/product-111-1783359444802.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Sublimation stanley",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-112-1783360137964.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 112,
+        "sku": "SUB-0107",
+        "name": "Sublimation stanley",
+        "family": "Sublimation stanley",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 120.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-112-1783360137964.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Old stanley",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-113-1783360179691.jpeg",
+      "/uploads/product-114-1783360226448.jpeg",
+      "/uploads/product-115-1783360266138.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 113,
+        "sku": "OLD-0108",
+        "name": "Old stanley (white",
+        "family": "Old stanley",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 9,
+        "warehouseStock": 0,
+        "totalStock": 9,
+        "imageUrl": "/uploads/product-113-1783360179691.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 114,
+        "sku": "OLD-0109",
+        "name": "Old stanley (blue",
+        "family": "Old stanley",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 13,
+        "warehouseStock": 0,
+        "totalStock": 13,
+        "imageUrl": "/uploads/product-114-1783360226448.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 115,
+        "sku": "OLD-0110",
+        "name": "Old stanley (pink",
+        "family": "Old stanley",
+        "color": "Pink",
+        "colorHex": "#EC4899",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 3,
+        "warehouseStock": 0,
+        "totalStock": 3,
+        "imageUrl": "/uploads/product-115-1783360266138.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 119,
+        "sku": "OLD-0114",
+        "name": "Old stanley (black",
+        "family": "Old stanley",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 8,
+        "warehouseStock": 0,
+        "totalStock": 8,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Old stamley",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-116-1783360354809.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 116,
+        "sku": "OLD-0111",
+        "name": "Old stamley (grey",
+        "family": "Old stamley",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 20,
+        "warehouseStock": 0,
+        "totalStock": 20,
+        "imageUrl": "/uploads/product-116-1783360354809.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "flat top stanley",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-117-1783360423796.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 117,
+        "sku": "FLA-0112",
+        "name": "flat top stanley (white",
+        "family": "flat top stanley",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 120.0,
+        "retailStock": 3,
+        "warehouseStock": 0,
+        "totalStock": 3,
+        "imageUrl": "/uploads/product-117-1783360423796.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Flat top stanley",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-118-1783360514720.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 118,
+        "sku": "FLA-0113",
+        "name": "Flat top stanley ( black",
+        "family": "Flat top stanley",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 120.0,
+        "retailStock": 13,
+        "warehouseStock": 0,
+        "totalStock": 13,
+        "imageUrl": "/uploads/product-118-1783360514720.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "stanley look alike ( peach",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 121,
+        "sku": "STA-0116",
+        "name": "stanley look alike ( peach",
+        "family": "stanley look alike ( peach",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 5,
+        "warehouseStock": 0,
+        "totalStock": 5,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "stanley look alike (purpel",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-122-1784741210282.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 122,
+        "sku": "STA-0117",
+        "name": "stanley look alike (purpel",
+        "family": "stanley look alike (purpel",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 5.0,
+        "retailStock": 5,
+        "warehouseStock": 0,
+        "totalStock": 5,
+        "imageUrl": "/uploads/product-122-1784741210282.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "stanley look alike",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-124-1784741236889.jpeg",
+      "/uploads/product-125-1784741181752.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 123,
+        "sku": "STA-0118",
+        "name": "stanley look alike (white",
+        "family": "stanley look alike",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 2,
+        "warehouseStock": 0,
+        "totalStock": 2,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 124,
+        "sku": "STA-0119",
+        "name": "stanley look alike( grey",
+        "family": "stanley look alike",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 2.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-124-1784741236889.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 125,
+        "sku": "STA-0120",
+        "name": "stanley look alike (pink",
+        "family": "stanley look alike",
+        "color": "Pink",
+        "colorHex": "#EC4899",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 0,
+        "retailStock": 4,
+        "warehouseStock": 0,
+        "totalStock": 4,
+        "imageUrl": "/uploads/product-125-1784741181752.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "new coffee cup 65 type",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 126,
+        "sku": "NEW-0121",
+        "name": "new coffee cup 65 type",
+        "family": "new coffee cup 65 type",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 65.0,
+        "retailStock": 50,
+        "warehouseStock": 0,
+        "totalStock": 50,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Borosilicate medium size",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 127,
+        "sku": "BOR-0122",
+        "name": "Borosilicate medium size",
+        "family": "Borosilicate medium size",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 35.0,
+        "retailStock": 95,
+        "warehouseStock": 0,
+        "totalStock": 95,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Borosilicate small size",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 128,
+        "sku": "BOR-0123",
+        "name": "Borosilicate small size",
+        "family": "Borosilicate small size",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 25.0,
+        "retailStock": 22,
+        "warehouseStock": 0,
+        "totalStock": 22,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Wodden pen and pen drive",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 129,
+        "sku": "WOD-0124",
+        "name": "Wodden pen and pen drive",
+        "family": "Wodden pen and pen drive",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "frosted bottle",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 131,
+        "sku": "FRO-0126",
+        "name": "frosted bottle (black",
+        "family": "frosted bottle",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 30.0,
+        "retailStock": 30,
+        "warehouseStock": 0,
+        "totalStock": 30,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 132,
+        "sku": "FRO-0127",
+        "name": "frosted bottle (blue",
+        "family": "frosted bottle",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 30.0,
+        "retailStock": 68,
+        "warehouseStock": 0,
+        "totalStock": 68,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "frosted bottle plain",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 133,
+        "sku": "FRO-0128",
+        "name": "frosted bottle plain",
+        "family": "frosted bottle plain",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 25.0,
+        "retailStock": 13,
+        "warehouseStock": 0,
+        "totalStock": 13,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 218,
+        "sku": "FRO-0208",
+        "name": "frosted bottle plain",
+        "family": "frosted bottle plain",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "leather tumbler",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 134,
+        "sku": "LEA-0129",
+        "name": "leather tumbler (white",
+        "family": "leather tumbler",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 12.0,
+        "retailStock": 60,
+        "warehouseStock": 0,
+        "totalStock": 60,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Egg shape tumbler",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 135,
+        "sku": "EGG-0130",
+        "name": "Egg shape tumbler",
+        "family": "Egg shape tumbler",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.0,
+        "retailStock": 44,
+        "warehouseStock": 0,
+        "totalStock": 44,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "New vacuum cup with handle",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 136,
+        "sku": "NEW-0131",
+        "name": "New vacuum cup with handle",
+        "family": "New vacuum cup with handle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.0,
+        "retailStock": 48,
+        "warehouseStock": 0,
+        "totalStock": 48,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "wooden fan",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 137,
+        "sku": "WOO-0131",
+        "name": "wooden fan",
+        "family": "wooden fan",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 194,
+        "warehouseStock": 0,
+        "totalStock": 194,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "long wooden opener",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 138,
+        "sku": "LON-0132",
+        "name": "long wooden opener",
+        "family": "long wooden opener",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 7.5,
+        "retailStock": 40,
+        "warehouseStock": 0,
+        "totalStock": 40,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 161,
+        "sku": "LON-0153",
+        "name": "long wooden opener",
+        "family": "long wooden opener",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 7.5,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "wooden speaker",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 139,
+        "sku": "WOO-0133",
+        "name": "wooden speaker",
+        "family": "wooden speaker",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 65.0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 148,
+        "sku": "WOO-0141",
+        "name": "wooden speaker",
+        "family": "wooden speaker",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 65.0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Flat diary",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 142,
+        "sku": "FLA-0136",
+        "name": "Flat diary (black)",
+        "family": "Flat diary",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 15.0,
+        "sellingPrice": 20.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 166,
+        "sku": "FLA-0158",
+        "name": "Flat diary (purple",
+        "family": "Flat diary",
+        "color": "Purple",
+        "colorHex": "#9333EA",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 20.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 167,
+        "sku": "FLA-0159",
+        "name": "Flat diary (yellow",
+        "family": "Flat diary",
+        "color": "Yellow",
+        "colorHex": "#FACC15",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 20.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 168,
+        "sku": "FLA-0160",
+        "name": "Flat diary (black",
+        "family": "Flat diary",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 20.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 169,
+        "sku": "FLA-0161",
+        "name": "Flat diary (green",
+        "family": "Flat diary",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 20.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "keyholder set",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 145,
+        "sku": "GOL-0139",
+        "name": "gold keyholder set",
+        "family": "keyholder set",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 20.0,
+        "sellingPrice": 25.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Square Tumbler",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 147,
+        "sku": "SQU-0140",
+        "name": "Square Tumbler",
+        "family": "Square Tumbler",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 15.0,
+        "sellingPrice": 20.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Rossette and red",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 149,
+        "sku": "ROS-0142",
+        "name": "Rossette black and red",
+        "family": "Rossette and red",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Round bottle Blue",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 150,
+        "sku": "ROU-0142",
+        "name": "Round bottle (Blue black)",
+        "family": "Round bottle Blue",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 60.0,
+        "sellingPrice": 65.0,
+        "retailStock": 8,
+        "warehouseStock": 0,
+        "totalStock": 8,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "sublimation bottle with temperature",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-151-1784738449641.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 151,
+        "sku": "SUB-0143",
+        "name": "sublimation bottle with temperature",
+        "family": "sublimation bottle with temperature",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 80.0,
+        "retailStock": 43,
+        "warehouseStock": 0,
+        "totalStock": 43,
+        "imageUrl": "/uploads/product-151-1784738449641.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Big flask",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 152,
+        "sku": "BIG-0144",
+        "name": "Big flask",
+        "family": "Big flask",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "square tumbler (mix",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 153,
+        "sku": "SQU-0145",
+        "name": "square tumbler (mix",
+        "family": "square tumbler (mix",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 19.99,
+        "retailStock": 34,
+        "warehouseStock": 0,
+        "totalStock": 34,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "vacuum temperature flask with glass",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 154,
+        "sku": "VAC-0146",
+        "name": "vacuum temperature flask with glass",
+        "family": "vacuum temperature flask with glass",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 80.0,
+        "retailStock": 36,
+        "warehouseStock": 0,
+        "totalStock": 36,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "coffee cup",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 155,
+        "sku": "COF-0147",
+        "name": "coffee cup (white",
+        "family": "coffee cup",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 17.0,
+        "retailStock": 17,
+        "warehouseStock": 0,
+        "totalStock": 17,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 156,
+        "sku": "COF-0148",
+        "name": "coffee cup (black",
+        "family": "coffee cup",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 16,
+        "warehouseStock": 0,
+        "totalStock": 16,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "coffee cup (army color",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 157,
+        "sku": "COF-0149",
+        "name": "coffee cup (army color",
+        "family": "coffee cup (army color",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 13,
+        "warehouseStock": 0,
+        "totalStock": 13,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "sublimated lid mug",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-158-1784739289704.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 158,
+        "sku": "SUB-0150",
+        "name": "sublimated gold lid mug",
+        "family": "sublimated lid mug",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 30.0,
+        "retailStock": 37,
+        "warehouseStock": 0,
+        "totalStock": 37,
+        "imageUrl": "/uploads/product-158-1784739289704.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "umbrella",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 159,
+        "sku": "UMB-0151",
+        "name": "umbrella (black",
+        "family": "umbrella",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 160,
+        "sku": "UMB-0152",
+        "name": "umbrella (blue",
+        "family": "umbrella",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 205,
+        "sku": "UMB-0195",
+        "name": "umbrella (purple",
+        "family": "umbrella",
+        "color": "Purple",
+        "colorHex": "#9333EA",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 206,
+        "sku": "UMB-0196",
+        "name": "umbrella (brown",
+        "family": "umbrella",
+        "color": "Brown",
+        "colorHex": "#78350F",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Rossette rad and",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 162,
+        "sku": "ROS-0154",
+        "name": "Rossette (rad and black",
+        "family": "Rossette rad and",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 8.0,
+        "retailStock": 200,
+        "warehouseStock": 0,
+        "totalStock": 200,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Rossette",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 163,
+        "sku": "ROS-0155",
+        "name": "Rossette (white",
+        "family": "Rossette",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 8.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Rossette black and",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-164-1784738831632.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 164,
+        "sku": "ROS-0156",
+        "name": "Rossette (black and white",
+        "family": "Rossette black and",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-164-1784738831632.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Wooden speaker",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 165,
+        "sku": "WOO-0157",
+        "name": "Wooden speaker",
+        "family": "Wooden speaker",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 75.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Plastic fan",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 170,
+        "sku": "PLA-0162",
+        "name": "Plastic fan (black",
+        "family": "Plastic fan",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "plastic fan",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 171,
+        "sku": "PLA-0163",
+        "name": "plastic fan (white",
+        "family": "plastic fan",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "temperature flask",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 174,
+        "sku": "TEM-0164",
+        "name": "temperature flask (gold",
+        "family": "temperature flask",
+        "color": "Gold",
+        "colorHex": "#EAB308",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 45.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 175,
+        "sku": "TEM-0165",
+        "name": "temperature flask (pink",
+        "family": "temperature flask",
+        "color": "Pink",
+        "colorHex": "#EC4899",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 45.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "vacuum cup with straw",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 176,
+        "sku": "VAC-0166",
+        "name": "vacuum cup with straw (blue",
+        "family": "vacuum cup with straw",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 202,
+        "sku": "VAC-0192",
+        "name": "vacuum cup with straw (white",
+        "family": "vacuum cup with straw",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "2in 1 set 80 Gh type",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 177,
+        "sku": "2IN-0167",
+        "name": "2in 1 set 80 Gh type blue",
+        "family": "2in 1 set 80 Gh type",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 80.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "3in1 set",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-178-1784742494724.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 178,
+        "sku": "3IN-0168",
+        "name": "3in1 set (blue",
+        "family": "3in1 set",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 180.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-178-1784742494724.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 179,
+        "sku": "3IN-0169",
+        "name": "3in1 set (black",
+        "family": "3in1 set",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 180.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "2in1 set with refill",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-180-1784735673000.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 180,
+        "sku": "2IN-0170",
+        "name": "2in1 set with refill (orange",
+        "family": "2in1 set with refill",
+        "color": "Orange",
+        "colorHex": "#F97316",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-180-1784735673000.jpeg",
+        "hasImage": true
+      },
+      {
+        "id": 181,
+        "sku": "2IN-0171",
+        "name": "2in1 set with refill (green",
+        "family": "2in1 set with refill",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 183,
+        "sku": "2IN-0173",
+        "name": "2in1 set with refill(black",
+        "family": "2in1 set with refill",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "2in 1 set with refill",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 182,
+        "sku": "2IN-0172",
+        "name": "2in 1 set with refill (blue",
+        "family": "2in 1 set with refill",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 100.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "single diary 70 type",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 184,
+        "sku": "SIN-0174",
+        "name": "single diary brown 70 type",
+        "family": "single diary 70 type",
+        "color": "Brown",
+        "colorHex": "#78350F",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 203,
+        "sku": "SIN-0193",
+        "name": "single diary black 70 type",
+        "family": "single diary 70 type",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "2in1 diary 90 type",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 185,
+        "sku": "2IN-0175",
+        "name": "2in1 diary 90 type (brown",
+        "family": "2in1 diary 90 type",
+        "color": "Brown",
+        "colorHex": "#78350F",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "2in1 90 type",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 186,
+        "sku": "2IN-0176",
+        "name": "2in1 90 type (black",
+        "family": "2in1 90 type",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "2in1 diary set 90 type",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 187,
+        "sku": "2IN-0177",
+        "name": "2in1 diary set 90 type (purple",
+        "family": "2in1 diary set 90 type",
+        "color": "Purple",
+        "colorHex": "#9333EA",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 90.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "single wooden diary",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 188,
+        "sku": "SIN-0178",
+        "name": "single wooden diary",
+        "family": "single wooden diary",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "wooden diary set",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 189,
+        "sku": "WOO-0179",
+        "name": "wooden diary set",
+        "family": "wooden diary set",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "3in1 set with tumbler",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-190-1784741612667.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 190,
+        "sku": "3IN-0180",
+        "name": "3in1 set with tumbler black",
+        "family": "3in1 set with tumbler",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 180.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-190-1784741612667.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "old 3in1 set",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 191,
+        "sku": "OLD-0181",
+        "name": "old 3in1 set (red",
+        "family": "old 3in1 set",
+        "color": "Red",
+        "colorHex": "#DC2626",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 192,
+        "sku": "OLD-0182",
+        "name": "old 3in1 set(blue",
+        "family": "old 3in1 set",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "diary with lines pen and refill",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 193,
+        "sku": "DIA-0183",
+        "name": "diary with lines,pen and refill( blue",
+        "family": "diary with lines pen and refill",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 85.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 195,
+        "sku": "DIA-0185",
+        "name": "diary with lines,pen and refill (brown",
+        "family": "diary with lines pen and refill",
+        "color": "Brown",
+        "colorHex": "#78350F",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 85.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 196,
+        "sku": "DIA-0186",
+        "name": "diary with lines ,pen and refill (grey",
+        "family": "diary with lines pen and refill",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 85.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "diary with ines pen and refill",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 194,
+        "sku": "DIA-0184",
+        "name": "diary with ines,pen and refill(black",
+        "family": "diary with ines pen and refill",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 85.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "3in1 diary set 200 type",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-199-1784735613707.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 199,
+        "sku": "3IN-0189",
+        "name": "3in1 diary set 200 type(green",
+        "family": "3in1 diary set 200 type",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 200.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-199-1784735613707.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "pen case with fume",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 200,
+        "sku": "PEN-0190",
+        "name": "pen case with fume",
+        "family": "pen case with fume",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 5.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "pen case (no fume",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 201,
+        "sku": "PEN-0191",
+        "name": "pen case (no fume",
+        "family": "pen case (no fume",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 5.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "wooden clock with pen holder",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 204,
+        "sku": "WOO-0194",
+        "name": "wooden clock with pen holder",
+        "family": "wooden clock with pen holder",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 150.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "big jute bag",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 207,
+        "sku": "BIG-0197",
+        "name": "big jute bag (black",
+        "family": "big jute bag",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 40.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 208,
+        "sku": "BIG-0198",
+        "name": "big jute bag (white",
+        "family": "big jute bag",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 40.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "small jute bag",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 209,
+        "sku": "SMA-0199",
+        "name": "small jute bag (white",
+        "family": "small jute bag",
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 35.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      },
+      {
+        "id": 210,
+        "sku": "SMA-0200",
+        "name": "small jute bag (black",
+        "family": "small jute bag",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 35.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "old 2in1 with refill diary set 85 type red and",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 211,
+        "sku": "OLD-0201",
+        "name": "old 2in1 with refill diary set  85 type red and green",
+        "family": "old 2in1 with refill diary set 85 type red and",
+        "color": "Green",
+        "colorHex": "#16A34A",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 85.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "V shape flask (all colors",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-212-1784740314593.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 212,
+        "sku": "V S-0202",
+        "name": "V shape flask (all colors",
+        "family": "V shape flask (all colors",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 70.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-212-1784740314593.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "straight cup (non sublimation",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 215,
+        "sku": "STR-0205",
+        "name": "straight cup (non sublimation",
+        "family": "straight cup (non sublimation",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 50.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "stainless steel flask",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 216,
+        "sku": "STA-0206",
+        "name": "stainless steel flask",
+        "family": "stainless steel flask",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.0,
+        "retailStock": 58,
+        "warehouseStock": 0,
+        "totalStock": 58,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "Borosilicate big size",
+    "category": "Gifts",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 217,
+        "sku": "BOR-0207",
+        "name": "Borosilicate big size",
+        "family": "Borosilicate big size",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 45.0,
+        "sellingPrice": 50.0,
+        "retailStock": 48,
+        "warehouseStock": 0,
+        "totalStock": 48,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "pen with lines 7ghs type",
+    "category": "Pen",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 219,
+        "sku": "RED-0209",
+        "name": "Red pen with lines (7ghs type)",
+        "family": "pen with lines 7ghs type",
+        "color": "Red",
+        "colorHex": "#DC2626",
+        "category": "Pen",
+        "categoryId": 716,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "pen with Lines",
+    "category": "Pen",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 220,
+        "sku": "BLU-0210",
+        "name": "Blue pen with Lines",
+        "family": "pen with Lines",
+        "color": "Blue",
+        "colorHex": "#2563EB",
+        "category": "Pen",
+        "categoryId": 716,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "pen with lines",
+    "category": "Pen",
+    "referenceImages": [],
+    "variants": [
+      {
+        "id": 221,
+        "sku": "GRE-0211",
+        "name": "grey pen with lines",
+        "family": "pen with lines",
+        "color": "Grey",
+        "colorHex": "#64748B",
+        "category": "Pen",
+        "categoryId": 716,
+        "costPrice": 6.0,
+        "sellingPrice": 7.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": null,
+        "hasImage": false
+      }
+    ]
+  },
+  {
+    "family": "plain glass bottle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-222-1784738100507.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 222,
+        "sku": "PLA-0207",
+        "name": "plain glass bottle",
+        "family": "plain glass bottle",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 13.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-222-1784738100507.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "Hand towel",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-223-1784738333846.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 223,
+        "sku": "HAN-0208",
+        "name": "Hand towel",
+        "family": "Hand towel",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 35.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-223-1784738333846.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "bottle with ring on top",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-224-1784738571069.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 224,
+        "sku": "BOT-0209",
+        "name": "bottle with ring on top",
+        "family": "bottle with ring on top",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-224-1784738571069.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "mug box",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-225-1784739092313.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 225,
+        "sku": "MUG-0210",
+        "name": "mug box",
+        "family": "mug box",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 5.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-225-1784739092313.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "sublimated bottle with sliver color",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-226-1784740248736.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 226,
+        "sku": "SUB-0211",
+        "name": "sublimated bottle with sliver color",
+        "family": "sublimated bottle with sliver color",
+        "color": "Standard",
+        "colorHex": "#94A3B8",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.01,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-226-1784740248736.jpeg",
+        "hasImage": true
+      }
+    ]
+  },
+  {
+    "family": "vacuum cup with handle",
+    "category": "Gifts",
+    "referenceImages": [
+      "/uploads/product-227-1784745079301.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 227,
+        "sku": "VAC-0212",
+        "name": "vacuum cup with handle black",
+        "family": "vacuum cup with handle",
+        "color": "Black",
+        "colorHex": "#1E293B",
+        "category": "Gifts",
+        "categoryId": null,
+        "costPrice": 0,
+        "sellingPrice": 60.0,
+        "retailStock": 0,
+        "warehouseStock": 0,
+        "totalStock": 0,
+        "imageUrl": "/uploads/product-227-1784745079301.jpeg",
+        "hasImage": true
+      }
+    ]
+  }
+]
