@@ -10,7 +10,8 @@ import {
   Store,
   Warehouse,
   Tag,
-  ShieldCheck
+  ShieldCheck,
+  Search
 } from 'lucide-react';
 import { 
   matchProductImage, 
@@ -20,14 +21,18 @@ import {
   catalogData
 } from './lib/cvEngine.ts';
 
-// Preset test images from real database
+// 10 real distinct products from catalogue for live pitching & instant testing
 const TEST_PRESETS = [
-  { label: 'Round Bottle (White)', path: '/uploads/product-6-1781018530481.jpeg', desc: 'Family with 6 color variants' },
-  { label: 'Round Bottle (Black)', path: '/uploads/product-7-1781018441025.jpeg', desc: 'Tests shape match across variants' },
-  { label: 'Temp Flask (Blue)', path: '/uploads/product-15-1781016855223.jpeg', desc: 'Tests blue color detection' },
-  { label: 'Sport Bottle', path: '/uploads/product-12-1784740086078.jpeg', desc: 'Tall stainless sports bottle' },
-  { label: 'Wine Bottle Set', path: '/uploads/product-75-1782565051197.jpeg', desc: 'Luxury boxed gift set' },
-  { label: 'Glass Tumbler', path: '/uploads/product-18-1784738699978.jpeg', desc: 'Clear glass with handle' },
+  { label: 'Round Bottle (White)', path: '/uploads/product-6-1781018530481.jpeg', category: 'Bottles' },
+  { label: 'Round Bottle (Black)', path: '/uploads/product-7-1781018441025.jpeg', category: 'Bottles' },
+  { label: 'Temp Flask (Blue)', path: '/uploads/product-15-1781016855223.jpeg', category: 'Flasks' },
+  { label: 'Sport Bottle', path: '/uploads/product-12-1784740086078.jpeg', category: 'Sport' },
+  { label: 'Wine Bottle Set', path: '/uploads/product-75-1782565051197.jpeg', category: 'Gift Sets' },
+  { label: 'Glass Tumbler', path: '/uploads/product-18-1784738699978.jpeg', category: 'Glassware' },
+  { label: '4in1 Umbrella Set', path: '/uploads/product-86-1783004682573.jpeg', category: 'Gift Sets' },
+  { label: 'Wooden Umbrella Set', path: '/uploads/product-87-1783004746973.jpeg', category: 'Executive' },
+  { label: 'Wooden Opener', path: '/uploads/product-31-1784734663217.jpeg', category: 'Souvenirs' },
+  { label: 'Stanley Cup', path: '/uploads/product-80-1782567341583.jpeg', category: 'Drinkware' },
 ];
 
 export default function App() {
@@ -37,13 +42,13 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<'scanner' | 'catalog'>('scanner');
   const [selectedVariant, setSelectedVariant] = useState<ProductVariant | null>(null);
   const [catalogSearch, setCatalogSearch] = useState('');
-  const [useCenterCrop, setUseCenterCrop] = useState(true);
+  const [useCenterCrop, setUseCenterCrop] = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
-  // Auto-scan whenever image changes
+  // Auto-scan whenever image or crop mode changes
   useEffect(() => {
     if (selectedImage) {
       runVisualScan(selectedImage);
@@ -75,7 +80,7 @@ export default function App() {
       }
       ctx.drawImage(img, 0, 0);
 
-      // Center crop box (inner 70%) if enabled
+      // Center crop box if enabled
       let crop: { x: number; y: number; width: number; height: number } | undefined;
       if (useCenterCrop) {
         crop = {
@@ -121,10 +126,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
-      {/* Hidden processing canvas */}
       <canvas ref={canvasRef} className="hidden" />
 
-      {/* Hidden file inputs */}
       <input 
         type="file" 
         ref={fileInputRef} 
@@ -141,7 +144,7 @@ export default function App() {
         className="hidden" 
       />
 
-      {/* Top Header */}
+      {/* Header */}
       <header className="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-xs">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-3">
@@ -155,11 +158,10 @@ export default function App() {
                   Visual Scanner
                 </span>
               </div>
-              <p className="text-xs text-slate-500 font-medium">Non-AI Image Product Matcher</p>
+              <p className="text-xs text-slate-500 font-medium">Deterministic CV Product Matcher (No AI)</p>
             </div>
           </div>
 
-          {/* Navigation Pill */}
           <div className="flex bg-slate-100 p-1 rounded-xl text-xs font-semibold">
             <button
               onClick={() => setActiveTab('scanner')}
@@ -185,7 +187,7 @@ export default function App() {
         </div>
       </header>
 
-      {/* Main Content Area */}
+      {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-6 w-full flex-1">
         {activeTab === 'scanner' ? (
           <div className="space-y-6">
@@ -208,49 +210,55 @@ export default function App() {
                 </button>
               </div>
 
-              {/* Quick test presets shelf */}
+              {/* Pitch & Demo Shelf: 10 real products */}
               <div className="mt-4 pt-4 border-t border-slate-100">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs font-semibold uppercase tracking-wider text-slate-400">
-                    Or tap a real shop product to test:
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-600">
+                    Pitch Demo Shelf — Tap any real shop item to scan:
                   </span>
-                  <label className="flex items-center space-x-1.5 text-xs text-slate-600 cursor-pointer">
+                  <label className="flex items-center space-x-1.5 text-xs text-slate-500 cursor-pointer">
                     <input 
                       type="checkbox" 
                       checked={useCenterCrop} 
                       onChange={(e) => setUseCenterCrop(e.target.checked)}
                       className="rounded text-brand-700 focus:ring-brand-700" 
                     />
-                    <span>Object Focus Crop</span>
+                    <span>Tight Center Crop</span>
                   </label>
                 </div>
-                <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
-                  {TEST_PRESETS.map((preset, idx) => (
-                    <button
-                      key={idx}
-                      onClick={() => setSelectedImage(preset.path)}
-                      className={`flex-shrink-0 flex items-center space-x-2 px-3 py-2 rounded-xl text-xs font-medium border transition ${
-                        selectedImage === preset.path 
-                          ? 'border-brand-600 bg-brand-50 text-brand-900 ring-2 ring-brand-600/20' 
-                          : 'border-slate-200 bg-slate-50 hover:bg-white text-slate-700'
-                      }`}
-                    >
-                      <img 
-                        src={preset.path} 
-                        alt={preset.label} 
-                        className="w-7 h-7 object-cover rounded-md border border-slate-200 bg-white" 
-                      />
-                      <span>{preset.label}</span>
-                    </button>
-                  ))}
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 pt-1">
+                  {TEST_PRESETS.map((preset, idx) => {
+                    const isSelected = selectedImage === preset.path;
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => setSelectedImage(preset.path)}
+                        className={`flex items-center space-x-2 p-2 rounded-xl text-left border transition ${
+                          isSelected 
+                            ? 'border-brand-600 bg-brand-50 text-brand-900 ring-2 ring-brand-600/20' 
+                            : 'border-slate-200 bg-slate-50 hover:bg-white text-slate-700'
+                        }`}
+                      >
+                        <img 
+                          src={preset.path} 
+                          alt={preset.label} 
+                          className="w-8 h-8 object-cover rounded-md border border-slate-200 bg-white flex-shrink-0" 
+                        />
+                        <div className="min-w-0 flex-1">
+                          <p className="text-[11px] font-semibold truncate leading-tight">{preset.label}</p>
+                          <span className="text-[9px] text-slate-400 block">{preset.category}</span>
+                        </div>
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
             </div>
 
-            {/* Query Image & Live Scan Result */}
+            {/* Results Area */}
             {selectedImage && (
               <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-                {/* Left Column: Image preview & Color detection */}
+                {/* Left Column: Input Photo & Detected Color */}
                 <div className="md:col-span-5 space-y-4">
                   <div className="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs">
                     <div className="flex items-center justify-between mb-2">
@@ -259,12 +267,12 @@ export default function App() {
                       </span>
                       {scanResult && (
                         <span className="text-[11px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
-                          ⚡ {scanResult.processingTimeMs}ms (Local CV)
+                          ⚡ {scanResult.processingTimeMs}ms
                         </span>
                       )}
                     </div>
 
-                    <div className="relative aspect-square rounded-xl overflow-hidden bg-slate-100 border border-slate-200 flex items-center justify-center group">
+                    <div className="relative aspect-square rounded-xl overflow-hidden bg-slate-100 border border-slate-200 flex items-center justify-center">
                       <img 
                         src={selectedImage} 
                         alt="Scanned item" 
@@ -297,46 +305,33 @@ export default function App() {
                             </span>
                           </div>
                         </div>
-
-                        {/* Secondary Detected Palette */}
-                        {scanResult.detectedColor.secondaryColors.length > 0 && (
-                          <div className="mt-2 pt-2 border-t border-slate-200/60 flex items-center space-x-2 text-[10px] text-slate-500">
-                            <span>Sub-tones:</span>
-                            {scanResult.detectedColor.secondaryColors.map((sc, i) => (
-                              <span key={i} className="inline-flex items-center space-x-1">
-                                <span className="w-2 h-2 rounded-full" style={{ backgroundColor: sc.hex }} />
-                                <span>{sc.name}</span>
-                              </span>
-                            ))}
-                          </div>
-                        )}
                       </div>
                     )}
                   </div>
 
-                  {/* Deterministic CV Guarantee Notice */}
+                  {/* Non-AI Guarantee notice */}
                   <div className="bg-emerald-50/70 border border-emerald-200 rounded-xl p-3.5 flex items-start space-x-3 text-xs text-emerald-900">
                     <ShieldCheck className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-semibold text-emerald-950">100% Deterministic Computer Vision</p>
                       <p className="text-emerald-800 text-[11px] mt-0.5 leading-relaxed">
-                        Zero AI models or token fees. Matches structural shape via 512-bit perceptual hashes and isolates variant colors via calibrated HSV hue quantization.
+                        Evaluates 16-bin color histogram intersection, structural silhouette hashes, and aspect ratio in real time. Zero external AI API costs.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                {/* Right Column: Match Result & Variant Details */}
+                {/* Right Column: Matched Product & Breakdown */}
                 <div className="md:col-span-7 space-y-4">
                   {isScanning ? (
                     <div className="bg-white rounded-2xl border border-slate-200 p-12 text-center shadow-xs">
                       <RefreshCw className="w-8 h-8 text-brand-700 animate-spin mx-auto mb-3" />
-                      <p className="font-bold text-slate-800">Analyzing Image Pixels…</p>
-                      <p className="text-xs text-slate-500 mt-1">Comparing 512-bit structural hash & extracting dominant hue</p>
+                      <p className="font-bold text-slate-800">Analyzing Image Features…</p>
+                      <p className="text-xs text-slate-500 mt-1">Comparing color histograms & silhouette gradients</p>
                     </div>
                   ) : scanResult?.topMatch ? (
                     <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs">
-                      {/* Match header badge */}
+                      {/* Match header */}
                       <div className="bg-slate-900 text-white px-5 py-3 flex items-center justify-between">
                         <div className="flex items-center space-x-2">
                           <span className={`text-xs font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider ${
@@ -349,20 +344,20 @@ export default function App() {
                             {scanResult.topMatch.matchStrength}
                           </span>
                           <span className="text-xs font-mono text-slate-300">
-                            Score: {scanResult.topMatch.shapeScore}%
+                            Confidence: {scanResult.topMatch.shapeScore}%
                           </span>
                         </div>
                         <span className="text-xs text-slate-400">
-                          Family: {scanResult.topMatch.family}
+                          {scanResult.topMatch.category}
                         </span>
                       </div>
 
-                      {/* Best Product Details */}
+                      {/* Product Content */}
                       <div className="p-5 space-y-5">
                         <div className="flex items-start justify-between">
                           <div>
                             <span className="text-xs font-semibold text-brand-700 uppercase tracking-wider">
-                              {scanResult.topMatch.category}
+                              Product Family: {scanResult.topMatch.family}
                             </span>
                             <h2 className="text-xl font-bold text-slate-900 mt-0.5">
                               {selectedVariant?.name || scanResult.topMatch.family}
@@ -372,12 +367,11 @@ export default function App() {
                                 SKU: {selectedVariant?.sku}
                               </span>
                               <span className="text-xs text-slate-500">
-                                Variant ID: #{selectedVariant?.id}
+                                ID: #{selectedVariant?.id}
                               </span>
                             </div>
                           </div>
 
-                          {/* Reference Photo Thumb */}
                           {scanResult.topMatch.referenceImage && (
                             <div className="text-center flex-shrink-0">
                               <img 
@@ -385,31 +379,49 @@ export default function App() {
                                 alt="Ref" 
                                 className="w-16 h-16 object-cover rounded-xl border border-slate-200 bg-slate-50" 
                               />
-                              <span className="text-[10px] text-slate-400 block mt-1 font-medium">Ref Image</span>
+                              <span className="text-[10px] text-slate-400 block mt-1 font-medium">Catalogue Ref</span>
                             </div>
                           )}
                         </div>
 
-                        {/* Evidence & Explanation Box */}
-                        <div className="bg-slate-50 rounded-xl p-3.5 border border-slate-200/80 text-xs space-y-1.5">
-                          <div className="font-semibold text-slate-800 flex items-center space-x-1.5">
-                            <Info className="w-4 h-4 text-brand-700" />
-                            <span>Why this matched:</span>
+                        {/* Multi-Signal Breakdown Meter */}
+                        <div className="bg-slate-50 rounded-xl p-3.5 border border-slate-200 text-xs space-y-2">
+                          <div className="font-semibold text-slate-800 flex items-center justify-between">
+                            <span className="flex items-center space-x-1.5">
+                              <Info className="w-4 h-4 text-brand-700" />
+                              <span>Signal Match Breakdown:</span>
+                            </span>
+                            <span className="text-[11px] font-mono text-slate-500">
+                              Total: {scanResult.topMatch.shapeScore}%
+                            </span>
                           </div>
-                          <ul className="text-slate-600 text-[11px] space-y-1 list-disc list-inside">
-                            <li>
-                              Shape outline matched <strong className="text-slate-800">{scanResult.topMatch.family}</strong> with {scanResult.topMatch.evidence.shapeMatchPercent}% structural edge similarity.
-                            </li>
+
+                          <div className="grid grid-cols-2 gap-2 text-[11px]">
+                            <div className="bg-white p-2 rounded-lg border border-slate-200">
+                              <span className="text-slate-500 block">Shape & Silhouette</span>
+                              <span className="font-bold text-slate-900">
+                                {scanResult.topMatch.evidence.shapeMatchPercent}% similarity
+                              </span>
+                            </div>
+                            <div className="bg-white p-2 rounded-lg border border-slate-200">
+                              <span className="text-slate-500 block">Color Histogram</span>
+                              <span className="font-bold text-slate-900">
+                                {scanResult.topMatch.evidence.colorCompositionPercent}% intersection
+                              </span>
+                            </div>
+                          </div>
+
+                          <div className="text-[11px] text-slate-600 pt-1 border-t border-slate-200/60">
                             {scanResult.topMatch.evidence.colorMatched ? (
-                              <li className="text-emerald-700 font-medium">
-                                ✨ Detected colour <strong className="text-emerald-900">{scanResult.topMatch.evidence.detectedColor}</strong> resolved to variant SKU <strong className="text-emerald-900">{selectedVariant?.sku}</strong> (even without a separate variant photo).
-                              </li>
+                              <span className="text-emerald-700 font-medium">
+                                ✨ Detected colour <strong>{scanResult.topMatch.evidence.detectedColor}</strong> matched variant SKU <strong>{selectedVariant?.sku}</strong> (even if unphotographed).
+                              </span>
                             ) : (
-                              <li>
-                                Detected colour is {scanResult.topMatch.evidence.detectedColor}. Defaulted to available catalogue variant.
-                              </li>
+                              <span>
+                                Showing available catalogue variant ({selectedVariant?.color}).
+                              </span>
                             )}
-                          </ul>
+                          </div>
                         </div>
 
                         {/* Available Colours / Variant Picker */}
@@ -455,7 +467,7 @@ export default function App() {
                           </div>
                         </div>
 
-                        {/* Stock & Pricing Breakdown */}
+                        {/* Stock & Pricing */}
                         {selectedVariant && (
                           <div className="grid grid-cols-3 gap-3 pt-2">
                             <div className="bg-slate-50 p-3 rounded-xl border border-slate-200">
@@ -502,7 +514,7 @@ export default function App() {
                         {/* Action buttons */}
                         <div className="pt-2 flex flex-col sm:flex-row gap-3">
                           <button
-                            onClick={() => alert(`Prototype Confirmation:\nProduct: ${selectedVariant?.name}\nSKU: ${selectedVariant?.sku}\nTotal Stock: ${selectedVariant?.totalStock} units\nPrice: GHS ${selectedVariant?.sellingPrice.toFixed(2)}`)}
+                            onClick={() => alert(`Prototype Confirmed:\nProduct: ${selectedVariant?.name}\nSKU: ${selectedVariant?.sku}\nStock: ${selectedVariant?.totalStock} units\nPrice: GHS ${selectedVariant?.sellingPrice.toFixed(2)}`)}
                             className="flex-1 bg-brand-700 hover:bg-brand-800 text-white font-semibold py-3 px-4 rounded-xl flex items-center justify-center space-x-2 shadow-sm transition active:scale-[0.99]"
                           >
                             <CheckCircle2 className="w-4 h-4" />
@@ -568,20 +580,23 @@ export default function App() {
             )}
           </div>
         ) : (
-          /* Catalogue Tab: View all 212 items */
+          /* Catalogue Tab */
           <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div>
                 <h2 className="text-lg font-bold text-slate-900">Brand 233 Product Catalogue</h2>
                 <p className="text-xs text-slate-500">212 real products and stock levels extracted from database backup</p>
               </div>
-              <input 
-                type="text" 
-                placeholder="Search by name, SKU or category…" 
-                value={catalogSearch} 
-                onChange={(e) => setCatalogSearch(e.target.value)}
-                className="px-3.5 py-2 text-xs border border-slate-200 rounded-xl w-full sm:w-64 focus:outline-none focus:ring-2 focus:ring-brand-700/20 focus:border-brand-700" 
-              />
+              <div className="relative w-full sm:w-64">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <input 
+                  type="text" 
+                  placeholder="Search name, SKU, category…" 
+                  value={catalogSearch} 
+                  onChange={(e) => setCatalogSearch(e.target.value)}
+                  className="pl-9 pr-3.5 py-2 text-xs border border-slate-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-brand-700/20 focus:border-brand-700" 
+                />
+              </div>
             </div>
 
             <div className="overflow-x-auto">
@@ -643,19 +658,13 @@ export default function App() {
                   ))}
                 </tbody>
               </table>
-              {filteredCatalog.length > 50 && (
-                <p className="text-center text-xs text-slate-400 py-3">
-                  Showing first 50 of {filteredCatalog.length} items. Use search to find specific items.
-                </p>
-              )}
             </div>
           </div>
         )}
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-400">
-        Brand 233 Accra • Visual Product Scanner Prototype • 100% Free & Open Computer Vision (No AI APIs)
+        Brand 233 Accra • Visual Product Scanner Prototype • 100% Deterministic Computer Vision
       </footer>
     </div>
   );
