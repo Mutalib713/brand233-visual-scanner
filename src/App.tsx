@@ -6,19 +6,23 @@ import {
   Package, 
   RefreshCw, 
   Info, 
-  ChevronRight,
-  Store,
-  Warehouse,
-  Tag,
-  ShieldCheck,
-  Search
+  ChevronRight, 
+  Store, 
+  Warehouse, 
+  Tag, 
+  ShieldCheck, 
+  Search,
+  SearchX,
+  PlusCircle,
+  X,
+  ChevronDown
 } from 'lucide-react';
 import { 
   matchProductImage, 
   ScanResult, 
   ProductVariant, 
   MatchCandidate,
-  catalogData
+  catalogData as initialCatalogData
 } from './lib/cvEngine.ts';
 
 // 10 real distinct products from catalogue for live pitching & instant testing
@@ -43,6 +47,17 @@ export default function App() {
   const [selectedVariant, setSelectedVariant] = useState<ProductVariant | null>(null);
   const [catalogSearch, setCatalogSearch] = useState('');
   const [useCenterCrop, setUseCenterCrop] = useState(false);
+  const [showWeakSuggestions, setShowWeakSuggestions] = useState(false);
+  
+  // Registration modal state
+  const [showRegisterModal, setShowRegisterModal] = useState(false);
+  const [catalog, setCatalog] = useState<ProductVariant[]>(initialCatalogData);
+  const [newProdName, setNewProdName] = useState('');
+  const [newProdCategory, setNewProdCategory] = useState('Gifts');
+  const [newProdSellingPrice, setNewProdSellingPrice] = useState('50.00');
+  const [newProdCostPrice, setNewProdCostPrice] = useState('30.00');
+  const [newProdRetailStock, setNewProdRetailStock] = useState('10');
+  const [newProdWarehouseStock, setNewProdWarehouseStock] = useState('20');
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
@@ -67,6 +82,7 @@ export default function App() {
 
   const runVisualScan = (imgSrc: string) => {
     setIsScanning(true);
+    setShowWeakSuggestions(false);
     const img = new Image();
     img.crossOrigin = 'anonymous';
     img.onload = () => {
@@ -91,7 +107,7 @@ export default function App() {
         };
       }
 
-      // Execute non-AI Computer Vision Matching
+      // Execute non-AI Computer Vision Matching with strict confidence gating
       const result = matchProductImage(canvas, crop);
       setScanResult(result);
       if (result.topMatch) {
@@ -117,8 +133,38 @@ export default function App() {
     setSelectedVariant(candidate.recommendedVariant);
   };
 
+  // Register new product from scan
+  const handleRegisterProduct = (e: React.FormEvent) => {
+    e.preventDefault();
+    const newSku = `NEW-${String(catalog.length + 1).padStart(4, '0')}`;
+    const finalName = newProdName.trim() || `Unnamed Product · ${newSku}`;
+    
+    const newProduct: ProductVariant = {
+      id: 900 + catalog.length + 1,
+      sku: newSku,
+      name: finalName,
+      family: finalName,
+      color: scanResult?.detectedColor.colorName || 'Standard',
+      colorHex: scanResult?.detectedColor.swatchHex || '#94A3B8',
+      category: newProdCategory,
+      categoryId: 1,
+      costPrice: parseFloat(newProdCostPrice) || 0,
+      sellingPrice: parseFloat(newProdSellingPrice) || 0,
+      retailStock: parseInt(newProdRetailStock) || 0,
+      warehouseStock: parseInt(newProdWarehouseStock) || 0,
+      totalStock: (parseInt(newProdRetailStock) || 0) + (parseInt(newProdWarehouseStock) || 0),
+      imageUrl: selectedImage,
+      hasImage: true
+    };
+
+    setCatalog([newProduct, ...catalog]);
+    setShowRegisterModal(false);
+    alert(`Success!\n\nRegistered product:\n"${finalName}"\nSKU: ${newSku}\nColour: ${newProduct.color}\nTotal Stock: ${newProduct.totalStock} units`);
+    setActiveTab('catalog');
+  };
+
   // Filter catalog
-  const filteredCatalog = catalogData.filter(p => 
+  const filteredCatalog = catalog.filter(p => 
     p.name.toLowerCase().includes(catalogSearch.toLowerCase()) ||
     p.sku.toLowerCase().includes(catalogSearch.toLowerCase()) ||
     p.category.toLowerCase().includes(catalogSearch.toLowerCase())
@@ -181,7 +227,7 @@ export default function App() {
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              Catalogue ({catalogData.length})
+              Catalogue ({catalog.length})
             </button>
           </div>
         </div>
@@ -210,7 +256,7 @@ export default function App() {
                 </button>
               </div>
 
-              {/* Pitch & Demo Shelf: 10 real products */}
+              {/* Pitch & Demo Shelf */}
               <div className="mt-4 pt-4 border-t border-slate-100">
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-xs font-bold uppercase tracking-wider text-slate-600">
@@ -313,15 +359,15 @@ export default function App() {
                   <div className="bg-emerald-50/70 border border-emerald-200 rounded-xl p-3.5 flex items-start space-x-3 text-xs text-emerald-900">
                     <ShieldCheck className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-semibold text-emerald-950">100% Deterministic Computer Vision</p>
+                      <p className="font-semibold text-emerald-950">Strict Confidence Gate</p>
                       <p className="text-emerald-800 text-[11px] mt-0.5 leading-relaxed">
-                        Evaluates 16-bin color histogram intersection, structural silhouette hashes, and aspect ratio in real time. Zero external AI API costs.
+                        Matches require minimum 60% structural and color confidence. If an item is not in the catalogue, the matcher explicitly rejects it instead of guessing an unrelated product.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                {/* Right Column: Matched Product & Breakdown */}
+                {/* Right Column: Matched Product OR Explicit No-Match View */}
                 <div className="md:col-span-7 space-y-4">
                   {isScanning ? (
                     <div className="bg-white rounded-2xl border border-slate-200 p-12 text-center shadow-xs">
@@ -329,7 +375,8 @@ export default function App() {
                       <p className="font-bold text-slate-800">Analyzing Image Features…</p>
                       <p className="text-xs text-slate-500 mt-1">Comparing color histograms & silhouette gradients</p>
                     </div>
-                  ) : scanResult?.topMatch ? (
+                  ) : scanResult?.matchStatus === 'matched' && scanResult.topMatch ? (
+                    /* CASE 1: High Confidence Genuine Match */
                     <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs">
                       {/* Match header */}
                       <div className="bg-slate-900 text-white px-5 py-3 flex items-center justify-between">
@@ -529,13 +576,116 @@ export default function App() {
                         </div>
                       </div>
                     </div>
+                  ) : scanResult?.matchStatus === 'no_match' ? (
+                    /* CASE 2: No Match Found - Explicit Rejection */
+                    <div className="bg-white rounded-2xl border border-amber-200 p-6 shadow-xs space-y-5">
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 text-amber-700 flex items-center justify-center flex-shrink-0">
+                          <SearchX className="w-6 h-6" />
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex items-center space-x-2">
+                            <span className="text-[11px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider bg-amber-100 text-amber-900 border border-amber-200">
+                              No Match Found
+                            </span>
+                            <span className="text-xs text-slate-400">Catalogue Verification</span>
+                          </div>
+                          <h2 className="text-lg font-bold text-slate-900 mt-1">
+                            Product Not in Brand 233 Catalogue
+                          </h2>
+                          <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                            This scanned item does not match any of the 212 registered products with sufficient visual confidence. The system will not force a false or unrelated match.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Rejection Diagnostics */}
+                      <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs space-y-2">
+                        <div className="font-semibold text-slate-800 flex items-center justify-between">
+                          <span>Confidence Diagnostic:</span>
+                          <span className="text-[11px] font-mono text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200 font-medium">
+                            Confidence &lt; 60% (Rejected)
+                          </span>
+                        </div>
+                        <p className="text-slate-600 text-[11px] leading-relaxed">
+                          {scanResult.rejectionReason}
+                        </p>
+                        <div className="flex items-center space-x-4 pt-2 border-t border-slate-200/80 text-[11px] text-slate-600">
+                          <span>Detected Object Colour: <strong>{scanResult.detectedColor.colorName}</strong></span>
+                          <span 
+                            className="w-3.5 h-3.5 rounded-full border border-slate-300 inline-block shadow-2xs" 
+                            style={{ backgroundColor: scanResult.detectedColor.swatchHex }} 
+                          />
+                        </div>
+                      </div>
+
+                      {/* Registration & Retry Actions */}
+                      <div className="flex flex-col sm:flex-row gap-3 pt-1">
+                        <button
+                          onClick={() => {
+                            setNewProdName('');
+                            setShowRegisterModal(true);
+                          }}
+                          className="flex-1 bg-brand-700 hover:bg-brand-800 text-white font-semibold py-3 px-4 rounded-xl flex items-center justify-center space-x-2 shadow-sm transition active:scale-[0.99]"
+                        >
+                          <PlusCircle className="w-4 h-4" />
+                          <span>Register as New Product</span>
+                        </button>
+                        <button
+                          onClick={() => { setSelectedImage(null); setScanResult(null); }}
+                          className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-3 px-4 rounded-xl transition"
+                        >
+                          Scan Another Item
+                        </button>
+                      </div>
+
+                      {/* Optional Weak Possibilities Accordion */}
+                      {scanResult.weakCandidates.length > 0 && (
+                        <div className="pt-3 border-t border-slate-100">
+                          <button
+                            onClick={() => setShowWeakSuggestions(!showWeakSuggestions)}
+                            className="text-xs text-slate-500 hover:text-slate-800 font-medium flex items-center space-x-1"
+                          >
+                            <span>{showWeakSuggestions ? 'Hide' : 'Show'} rejected low-confidence candidates ({scanResult.weakCandidates.length})</span>
+                            <ChevronDown className={`w-3.5 h-3.5 transition-transform ${showWeakSuggestions ? 'rotate-180' : ''}`} />
+                          </button>
+
+                          {showWeakSuggestions && (
+                            <div className="mt-2.5 space-y-2">
+                              <p className="text-[10px] text-slate-400 italic">
+                                Note: These items scored below the required 60% threshold and were rejected to prevent showing an unrelated product.
+                              </p>
+                              {scanResult.weakCandidates.map((cand, idx) => (
+                                <div
+                                  key={idx}
+                                  className="p-2.5 rounded-xl border border-slate-200 bg-slate-50/50 flex items-center justify-between"
+                                >
+                                  <div className="flex items-center space-x-2.5">
+                                    <img 
+                                      src={cand.referenceImage} 
+                                      alt={cand.family} 
+                                      className="w-8 h-8 object-cover rounded-md border border-slate-200 bg-white" 
+                                    />
+                                    <div>
+                                      <h4 className="text-xs font-semibold text-slate-700">{cand.family}</h4>
+                                      <span className="text-[10px] text-slate-400">{cand.category}</span>
+                                    </div>
+                                  </div>
+                                  <span className="text-xs font-mono text-slate-400">{cand.shapeScore}% (rejected)</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      )}
+                    </div>
                   ) : null}
 
-                  {/* Alternative Close Candidates */}
-                  {scanResult && scanResult.otherCandidates.length > 0 && (
+                  {/* Alternative Close Candidates (Only shown for genuine matches) */}
+                  {scanResult?.matchStatus === 'matched' && scanResult.otherCandidates.length > 0 && (
                     <div className="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs">
                       <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">
-                        Other Visually Similar Products ({scanResult.otherCandidates.length})
+                        Other Close Candidates ({scanResult.otherCandidates.length})
                       </h3>
                       <div className="space-y-2">
                         {scanResult.otherCandidates.map((cand, idx) => (
@@ -585,7 +735,7 @@ export default function App() {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div>
                 <h2 className="text-lg font-bold text-slate-900">Brand 233 Product Catalogue</h2>
-                <p className="text-xs text-slate-500">212 real products and stock levels extracted from database backup</p>
+                <p className="text-xs text-slate-500">{catalog.length} registered products and real stock levels</p>
               </div>
               <div className="relative w-full sm:w-64">
                 <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
@@ -662,6 +812,155 @@ export default function App() {
           </div>
         )}
       </main>
+
+      {/* Registration Modal (Section 7 of specification) */}
+      {showRegisterModal && (
+        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl max-w-md w-full border border-slate-200 shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+            <div className="bg-slate-900 text-white px-5 py-4 flex items-center justify-between">
+              <div>
+                <h3 className="font-bold text-base leading-tight">Register New Product</h3>
+                <p className="text-xs text-slate-400 mt-0.5">Add unlisted item to Brand 233 catalogue</p>
+              </div>
+              <button 
+                onClick={() => setShowRegisterModal(false)}
+                className="text-slate-400 hover:text-white transition"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <form onSubmit={handleRegisterProduct} className="p-5 space-y-4 text-xs">
+              {/* Image & Detected Color Banner */}
+              <div className="flex items-center space-x-3 p-3 bg-slate-50 rounded-xl border border-slate-200">
+                {selectedImage && (
+                  <img 
+                    src={selectedImage} 
+                    alt="New item" 
+                    className="w-14 h-14 object-cover rounded-lg border border-slate-200 bg-white" 
+                  />
+                )}
+                <div>
+                  <span className="text-[10px] uppercase font-bold text-slate-400 block tracking-wider">
+                    Auto-Generated Code
+                  </span>
+                  <span className="font-mono font-bold text-slate-900 text-sm">
+                    NEW-{String(catalog.length + 1).padStart(4, '0')}
+                  </span>
+                  <div className="flex items-center space-x-1.5 mt-1 text-slate-600">
+                    <span 
+                      className="w-3 h-3 rounded-full border border-slate-300 inline-block"
+                      style={{ backgroundColor: scanResult?.detectedColor.swatchHex || '#94A3B8' }}
+                    />
+                    <span>Detected: {scanResult?.detectedColor.colorName || 'Standard'}</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Product Name Input */}
+              <div>
+                <div className="flex items-center justify-between mb-1">
+                  <label className="font-semibold text-slate-700">Product Name</label>
+                  <button
+                    type="button"
+                    onClick={() => setNewProdName(`Unnamed Product · NEW-${String(catalog.length + 1).padStart(4, '0')}`)}
+                    className="text-[11px] text-brand-700 hover:underline"
+                  >
+                    No name yet? Use placeholder
+                  </button>
+                </div>
+                <input
+                  type="text"
+                  placeholder="e.g. Matte Ceramic Mug"
+                  value={newProdName}
+                  onChange={(e) => setNewProdName(e.target.value)}
+                  className="w-full px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-700/20 focus:border-brand-700"
+                />
+              </div>
+
+              {/* Category */}
+              <div>
+                <label className="font-semibold text-slate-700 block mb-1">Category</label>
+                <select
+                  value={newProdCategory}
+                  onChange={(e) => setNewProdCategory(e.target.value)}
+                  className="w-full px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-700/20 focus:border-brand-700 bg-white"
+                >
+                  <option value="Bottles">Bottles</option>
+                  <option value="Flasks">Flasks</option>
+                  <option value="Drinkware">Drinkware</option>
+                  <option value="Glassware">Glassware</option>
+                  <option value="Gift Sets">Gift Sets</option>
+                  <option value="Executive">Executive</option>
+                  <option value="Souvenirs">Souvenirs</option>
+                  <option value="Gifts">Gifts (General)</option>
+                </select>
+              </div>
+
+              {/* Pricing & Stock Grid */}
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="font-semibold text-slate-700 block mb-1">Selling Price (GHS)</label>
+                  <input
+                    type="number"
+                    step="0.01"
+                    value={newProdSellingPrice}
+                    onChange={(e) => setNewProdSellingPrice(e.target.value)}
+                    className="w-full px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-700/20"
+                  />
+                </div>
+                <div>
+                  <label className="font-semibold text-slate-700 block mb-1">Cost Price (GHS)</label>
+                  <input
+                    type="number"
+                    step="0.01"
+                    value={newProdCostPrice}
+                    onChange={(e) => setNewProdCostPrice(e.target.value)}
+                    className="w-full px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-700/20"
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="font-semibold text-slate-700 block mb-1">Shop Floor Stock</label>
+                  <input
+                    type="number"
+                    value={newProdRetailStock}
+                    onChange={(e) => setNewProdRetailStock(e.target.value)}
+                    className="w-full px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-700/20"
+                  />
+                </div>
+                <div>
+                  <label className="font-semibold text-slate-700 block mb-1">Warehouse Stock</label>
+                  <input
+                    type="number"
+                    value={newProdWarehouseStock}
+                    onChange={(e) => setNewProdWarehouseStock(e.target.value)}
+                    className="w-full px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-700/20"
+                  />
+                </div>
+              </div>
+
+              <div className="pt-2 flex gap-2">
+                <button
+                  type="submit"
+                  className="flex-1 bg-brand-700 hover:bg-brand-800 text-white font-semibold py-2.5 px-4 rounded-xl transition shadow-sm"
+                >
+                  Save to Catalogue
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setShowRegisterModal(false)}
+                  className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-2.5 px-4 rounded-xl transition"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
 
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-400">
         Brand 233 Accra • Visual Product Scanner Prototype • 100% Deterministic Computer Vision

@@ -62,10 +62,13 @@ export interface MatchCandidate {
 }
 
 export interface ScanResult {
+  matchStatus: 'matched' | 'no_match';
   detectedColor: ColorExtractionResult;
   topMatch: MatchCandidate | null;
   otherCandidates: MatchCandidate[];
+  weakCandidates: MatchCandidate[];
   processingTimeMs: number;
+  rejectionReason?: string;
 }
 
 const BIN_NAMES: Record<number, [string, string]> = {
@@ -410,11 +413,34 @@ export function matchProductImage(
   // Sort descending by score
   candidates.sort((a, b) => b.shapeScore - a.shapeScore);
 
-  const topMatch = candidates[0] || null;
-  const otherCandidates = candidates.slice(1, 6);
+  const bestCandidate = candidates[0] || null;
+  const MIN_MATCH_THRESHOLD = 60; // 60% minimum required for genuine product candidate
+
+  let matchStatus: 'matched' | 'no_match' = 'no_match';
+  let topMatch: MatchCandidate | null = null;
+  let otherCandidates: MatchCandidate[] = [];
+  let weakCandidates: MatchCandidate[] = [];
+  let rejectionReason: string | undefined;
+
+  if (bestCandidate && bestCandidate.shapeScore >= MIN_MATCH_THRESHOLD) {
+    matchStatus = 'matched';
+    topMatch = bestCandidate;
+    // Only include other candidates that also cross reasonable threshold (>= 55%)
+    otherCandidates = candidates.slice(1, 5).filter(c => c.shapeScore >= 55);
+  } else {
+    matchStatus = 'no_match';
+    topMatch = null;
+    rejectionReason = bestCandidate 
+      ? `Highest candidate match was only ${bestCandidate.shapeScore}%, which is below the minimum 60% confidence threshold.`
+      : 'No product features matched the catalogue.';
+    // Keep low candidates only for optional "did you mean" inspection
+    weakCandidates = candidates.slice(0, 3).filter(c => c.shapeScore >= 35);
+  }
+
   const endTime = performance.now();
 
   return {
+    matchStatus,
     detectedColor: {
       colorName: querySig.dominantColor,
       swatchHex: querySig.swatch,
@@ -422,7 +448,9 @@ export function matchProductImage(
     },
     topMatch,
     otherCandidates,
-    processingTimeMs: Math.round(endTime - startTime)
+    weakCandidates,
+    processingTimeMs: Math.round(endTime - startTime),
+    rejectionReason
   };
 }
 
